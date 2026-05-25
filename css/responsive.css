@@ -1,0 +1,34 @@
+/* ============================================================
+   RESPONSIVE — TABLET (≤ 900px)
+   ============================================================ */
+@media (max-width:900px) {
+  .about-grid { grid-template-columns:1fr; }
+  .contact-grid { grid-template-columns:1fr; }
+  .about-avatar { max-width:250px; }
+  .hero-stats { gap:24px; }
+}
+
+/* ============================================================
+   RESPONSIVE — MOBILE (≤ 768px)
+   ============================================================ */
+@media (max-width:768px) {
+  section { padding: 70px 5%; }
+  .nav-links { display:none; }
+  .hamburger { display:flex; }
+  .hero-cta { flex-direction:column; }
+  .btn { justify-content:center; }
+  .footer-top { flex-direction:column; align-items:center; text-align:center; }
+  .timeline::before { left:14px; }
+  .timeline-item { padding-left:44px; }
+  .timeline-dot { left:6px; }
+  .skills-grid { grid-template-columns:1fr; }
+}
+
+/* ============================================================
+   RESPONSIVE — SMALL MOBILE (≤ 480px)
+   ============================================================ */
+@media (max-width:480px) {
+  .hero-stats { flex-wrap:wrap; }
+  .projects-grid { grid-template-columns:1fr; }
+  .certs-grid { grid-template-columns:1fr; }
+}
